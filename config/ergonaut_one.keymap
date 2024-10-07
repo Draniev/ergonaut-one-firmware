@@ -26,10 +26,10 @@
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL RBKT  &kp Q  &kp W  &kp E        &kp R          &kp T          &kp Y          &kp U           &kp I        &kp O    &kp P     &mt RIGHT_CONTROL LBKT
-&mt LEFT_GUI GRAVE     &kp A  &kp S  &kp D        &kp F          &kp G          &kp H          &kp J           &kp K        &kp L    &kp SEMI  &mt RIGHT_GUI SQT
-&mt LALT MINUS         &kp Z  &kp X  &kp C        &kp V          &kp B          &kp N          &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
-                                     &lt RSE ESC  &mt LSHFT TAB  &lt LWR SPACE  &lt LWR ENTER  &mt RSHFT BSPC  &lt RSE DEL
+&mt LEFT_CONTROL RBKT  &kp Q  &kp W  &kp E        &kp R               &kp T          &kp Y          &kp U           &kp I        &kp O    &kp P     &mt RIGHT_CONTROL LBKT
+&mt LEFT_GUI TAB       &kp A  &kp S  &kp D        &kp F               &kp G          &kp H          &kp J           &kp K        &kp L    &kp SEMI  &mt RIGHT_GUI SQT
+&mt LALT MINUS         &kp Z  &kp X  &kp C        &kp V               &kp B          &kp N          &kp M           &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
+                                     &lt RSE ESC  &mt LSHFT LEFT_GUI  &lt LWR SPACE  &lt LWR ENTER  &mt RSHFT BSPC  &lt RSE DEL
             >;
         };
 
@@ -44,10 +44,10 @@
 
         raise_layer {
             bindings = <
-&kp LEFT_CONTROL  &none  &none  &none   &none   &none   &none   &none   &none   &none     &none     &mt RIGHT_CONTROL CAPSLOCK
-&kp LEFT_GUI      &none  &none  &none   &none   &none   &kp H   &kp Y   &kp N   &kp U     &kp UP    &mt RIGHT_GUI K_APP
-&kp LALT          &none  &none  &none   &none   &none   &none   &none   &none   &kp LEFT  &kp DOWN  &mt RALT RIGHT
-                                &trans  &trans  &trans  &trans  &trans  &trans
+&mt LEFT_CONTROL GRAVE  &none  &none  &none   &none   &none   &kp H           &kp Y           &kp N         &kp U            &none     &mt RIGHT_CONTROL CAPSLOCK
+&kp LEFT_GUI            &none  &none  &none   &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp UP    &mt RIGHT_GUI K_APP
+&kp LALT                &none  &none  &none   &none   &none   &none           &none           &none         &kp LEFT         &kp DOWN  &mt RALT RIGHT
+                                      &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
 

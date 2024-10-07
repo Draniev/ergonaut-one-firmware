@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: '[', h: RIGHT CONTROL}
-  - {t: '`', h: LEFT GUI}
+  - {t: ↹, h: LEFT GUI}
   - A
   - S
   - D
@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: Esc, h: raise}
-  - {t: ↹, h: Shift}
+  - {t: LEFT GUI, h: Shift}
   - {t: ␣, h: lower}
   - {t: ENTER, h: lower}
   - {t: ⌫, h: Shift}
@@ -86,19 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - LEFT CONTROL
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: CAPSLOCK, h: RIGHT CONTROL}
-  - LEFT GUI
+  - {t: '`', h: LEFT CONTROL}
   - ''
   - ''
   - ''
@@ -108,6 +96,18 @@ layers:
   - Y
   - N
   - U
+  - ''
+  - {t: CAPSLOCK, h: RIGHT CONTROL}
+  - LEFT GUI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - ↑
   - {t: APP, h: RIGHT GUI}
   - Alt
