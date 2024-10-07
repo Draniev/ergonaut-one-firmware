@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: '[', h: RIGHT CONTROL}
-  - {t: ↹, h: LEFT GUI}
+  - {t: ↹, h: LEFT SHIFT}
   - A
   - S
   - D
@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: Esc, h: raise}
-  - {t: LEFT GUI, h: Shift}
+  - {t: ↹, h: LEFT GUI}
   - {t: ␣, h: lower}
   - {t: ENTER, h: lower}
   - {t: ⌫, h: Shift}
