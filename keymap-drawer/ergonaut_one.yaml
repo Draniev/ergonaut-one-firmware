@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: RIGHT GUI}
+  - {t: '''', h: RIGHT SHIFT}
   - {t: '-', h: Alt}
   - Z
   - X
@@ -40,7 +40,7 @@ layers:
   - {t: ↹, h: LEFT GUI}
   - {t: ␣, h: lower}
   - {t: ENTER, h: lower}
-  - {t: ⌫, h: Shift}
+  - {t: ⌫, h: RIGHT GUI}
   - {t: ⌦, h: raise}
   lower:
   - {t: F1, h: LEFT CONTROL}
