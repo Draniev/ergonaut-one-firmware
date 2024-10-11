@@ -12,30 +12,30 @@ layers:
   - O
   - P
   - {t: '[', h: RIGHT CONTROL}
-  - {t: ↹, h: LEFT SHIFT}
+  - {t: ↹, h: LEFT ALT}
   - A
-  - S
-  - D
-  - F
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: RIGHT CONTROL}
   - ;
-  - {t: '''', h: RIGHT SHIFT}
-  - {t: '-', h: Alt}
+  - {t: '''', h: RIGHT ALT}
+  - {t: '-', h: LEFT SHIFT}
   - Z
   - X
   - C
-  - V
+  - {t: V, h: LEFT SHIFT}
   - B
   - N
-  - M
+  - {t: M, h: RIGHT SHIFT}
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - {t: \, h: RIGHT SHIFT}
   - {t: Esc, h: raise}
   - {t: ↹, h: LEFT GUI}
   - {t: ␣, h: lower}
@@ -98,30 +98,30 @@ layers:
   - U
   - ''
   - {t: CAPSLOCK, h: RIGHT CONTROL}
+  - LEFT ALT
+  - ''
+  - LEFT CONTROL
+  - LEFT ALT
   - LEFT GUI
-  - ''
-  - ''
-  - ''
-  - ''
   - ''
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
   - ↑
-  - {t: APP, h: RIGHT GUI}
-  - Alt
+  - {t: APP, h: RIGHT ALT}
+  - LEFT SHIFT
   - ''
   - ''
   - ''
-  - ''
+  - LEFT SHIFT
   - ''
   - ''
   - ''
   - ''
   - ←
   - ↓
-  - {t: →, h: Alt}
+  - {t: →, h: RIGHT SHIFT}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

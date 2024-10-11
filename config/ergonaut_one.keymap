@@ -14,7 +14,7 @@
 
 &mt {
     quick-tap-ms = <200>;
-    flavor = "balanced";
+    flavor = "hold-preferred";
 };
 
 / {
@@ -27,15 +27,28 @@
         };
     };
 
+    behaviors {
+        mt_ballanced: mt_ballanced {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_BALLANCED";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL RBKT  &kp Q  &kp W  &kp E        &kp R             &kp T          &kp Y          &kp U               &kp I        &kp O    &kp P     &mt RIGHT_CONTROL LBKT
-&mt LEFT_SHIFT TAB     &kp A  &kp S  &kp D        &kp F             &kp G          &kp H          &kp J               &kp K        &kp L    &kp SEMI  &mt RIGHT_SHIFT SQT
-&mt LALT MINUS         &kp Z  &kp X  &kp C        &kp V             &kp B          &kp N          &kp M               &kp COMMA    &kp DOT  &kp FSLH  &mt RALT BSLH
-                                     &lt RSE ESC  &mt LEFT_GUI TAB  &lt LWR SPACE  &lt LWR ENTER  &mt RIGHT_GUI BSPC  &lt RSE DEL
+&mt_ballanced LEFT_CONTROL RIGHT_BRACKET  &kp Q  &kp W                         &kp E                     &kp R                       &kp T          &kp Y          &kp U                        &kp I                      &kp O                          &kp P     &mt_ballanced RIGHT_CONTROL LBKT
+&mt LEFT_ALT TAB                          &kp A  &mt_ballanced LEFT_CONTROL S  &mt_ballanced LEFT_ALT D  &mt_ballanced LEFT_GUI F    &kp G          &kp H          &mt_ballanced RIGHT_GUI J    &mt_ballanced RIGHT_ALT K  &mt_ballanced RIGHT_CONTROL L  &kp SEMI  &mt RIGHT_ALT SQT
+&mt LEFT_SHIFT MINUS                      &kp Z  &kp X                         &kp C                     &mt_ballanced LEFT_SHIFT V  &kp B          &kp N          &mt_ballanced RIGHT_SHIFT M  &kp COMMA                  &kp DOT                        &kp FSLH  &mt RIGHT_SHIFT BSLH
+                                                                               &lt RSE ESC               &mt LEFT_GUI TAB            &lt LWR SPACE  &lt LWR ENTER  &mt RIGHT_GUI BSPC           &lt RSE DEL
             >;
         };
 
@@ -50,10 +63,10 @@
 
         raise_layer {
             bindings = <
-&mt LEFT_CONTROL GRAVE  &none  &none  &none   &none   &none   &kp H           &kp Y           &kp N         &kp U            &none     &mt RIGHT_CONTROL CAPSLOCK
-&kp LEFT_GUI            &none  &none  &none   &none   &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp UP    &mt RIGHT_GUI K_APP
-&kp LALT                &none  &none  &none   &none   &none   &none           &none           &none         &kp LEFT         &kp DOWN  &mt RALT RIGHT
-                                      &trans  &trans  &trans  &trans          &trans          &trans
+&mt LEFT_CONTROL GRAVE  &none  &none             &none         &none           &none   &kp H           &kp Y           &kp N         &kp U            &none     &mt RIGHT_CONTROL CAPSLOCK
+&kp LEFT_ALT            &none  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp UP    &mt RIGHT_ALT K_APP
+&kp LEFT_SHIFT          &none  &none             &none         &kp LEFT_SHIFT  &none   &none           &none           &none         &kp LEFT         &kp DOWN  &mt RIGHT_SHIFT RIGHT
+                                                 &trans        &trans          &trans  &trans          &trans          &trans
             >;
         };
 
