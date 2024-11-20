@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: LEFT CONTROL}
+  - ']'
   - Q
   - W
   - E
@@ -11,9 +11,9 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: RIGHT CONTROL}
-  - {t: ↹, h: LEFT ALT}
-  - A
+  - '['
+  - ↹
+  - {t: A, h: LEFT SHIFT}
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
@@ -22,8 +22,8 @@ layers:
   - {t: J, h: RIGHT GUI}
   - {t: K, h: RIGHT ALT}
   - {t: L, h: RIGHT CONTROL}
-  - ;
-  - {t: '''', h: RIGHT ALT}
+  - {t: ;, h: RIGHT SHIFT}
+  - ''''
   - {t: '-', h: LEFT SHIFT}
   - Z
   - X
@@ -37,13 +37,13 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - {t: Esc, h: raise}
-  - {t: ↹, h: LEFT GUI}
+  - {t: PRINTSCREEN, h: LEFT GUI}
   - {t: ␣, h: lower}
   - {t: ENTER, h: lower}
   - {t: ⌫, h: RIGHT GUI}
   - {t: ⌦, h: raise}
   lower:
-  - {t: F1, h: LEFT CONTROL}
+  - F1
   - F2
   - F3
   - F4
@@ -54,8 +54,8 @@ layers:
   - F9
   - F10
   - F11
-  - {t: F12, h: RIGHT CONTROL}
-  - {t: +, h: LEFT GUI}
+  - F12
+  - +
   - '!'
   - '@'
   - '#'
@@ -66,8 +66,8 @@ layers:
   - '*'
   - (
   - )
-  - {t: '=', h: RIGHT GUI}
-  - {t: '-', h: Alt}
+  - '='
+  - '-'
   - '1'
   - '2'
   - '3'
@@ -78,7 +78,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: '`', h: LEFT CONTROL}
+  - '`'
   - ''
   - ''
   - ''
@@ -99,7 +99,7 @@ layers:
   - ''
   - {t: CAPSLOCK, h: RIGHT CONTROL}
   - LEFT ALT
-  - ''
+  - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
   - LEFT GUI
