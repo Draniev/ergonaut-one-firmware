@@ -174,5 +174,5 @@ layers:
 combos:
 - p: [16, 19]
   k: Caps Lock
-- p: [16, 15]
+- p: [16, 24]
   k: '&take_screenshoot'

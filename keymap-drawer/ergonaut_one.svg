@@ -339,8 +339,10 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
+<path d="M140,126 l94,-29" class="combo"/>
+<path d="M140,126 l-94,29" class="combo"/>
+<rect rx="6" ry="6" x="126" y="113" width="28" height="26" class="combo"/>
+<text x="140" y="126" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
 </g>
 </g>
 </g>
@@ -525,8 +527,10 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
+<path d="M140,126 l94,-29" class="combo"/>
+<path d="M140,126 l-94,29" class="combo"/>
+<rect rx="6" ry="6" x="126" y="113" width="28" height="26" class="combo"/>
+<text x="140" y="126" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
 </g>
 </g>
 </g>
@@ -720,8 +724,10 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
+<path d="M140,126 l94,-29" class="combo"/>
+<path d="M140,126 l-94,29" class="combo"/>
+<rect rx="6" ry="6" x="126" y="113" width="28" height="26" class="combo"/>
+<text x="140" y="126" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
 </g>
 </g>
 </g>
@@ -905,8 +911,10 @@ path.combo { stroke: #7f7f7f; }
 </text>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="210" y="74" width="28" height="26" class="combo"/>
-<text x="224" y="88" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
+<path d="M140,126 l94,-29" class="combo"/>
+<path d="M140,126 l-94,29" class="combo"/>
+<rect rx="6" ry="6" x="126" y="113" width="28" height="26" class="combo"/>
+<text x="140" y="126" class="combo tap"><tspan style="font-size: 64%">&amp;take_scre…</tspan></text>
 </g>
 </g>
 </g>

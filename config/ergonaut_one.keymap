@@ -50,7 +50,7 @@
 
         HR-screenshoot-combo {
             bindings = <&take_screenshoot>;
-            key-positions = <16 15>;
+            key-positions = <16 24>;
         };
     };
 
