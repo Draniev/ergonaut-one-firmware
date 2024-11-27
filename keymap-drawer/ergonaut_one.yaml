@@ -171,3 +171,6 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [16, 19]
+  k: Caps Lock

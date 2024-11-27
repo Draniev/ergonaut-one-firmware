@@ -40,6 +40,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        HR-caps-combo {
+            bindings = <&kp CAPS>;
+            key-positions = <16 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
