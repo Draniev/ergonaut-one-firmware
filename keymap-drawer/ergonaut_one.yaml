@@ -37,7 +37,7 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - {t: Esc, h: raise}
-  - {t: PRINTSCREEN, h: LEFT GUI}
+  - {t: Caps Lock, h: LEFT GUI}
   - {t: ␣, h: lower}
   - {t: ENTER, h: lower}
   - {t: ⌫, h: RIGHT GUI}
@@ -174,3 +174,5 @@ layers:
 combos:
 - p: [16, 19]
   k: Caps Lock
+- p: [16, 15]
+  k: '&take_screenshoot'

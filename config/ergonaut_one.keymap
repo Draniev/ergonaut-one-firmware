@@ -47,6 +47,20 @@
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
         };
+
+        HR-screenshoot-combo {
+            bindings = <&take_screenshoot>;
+            key-positions = <16 15>;
+        };
+    };
+
+    macros {
+        take_screenshoot: take_screenshoot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            label = "TAKE_SCREENSHOOT";
+        };
     };
 
     keymap {
@@ -57,7 +71,7 @@
 &kp RIGHT_BRACKET     &kp Q                       &kp W                         &kp E                     &kp R                       &kp T          &kp Y          &kp U                        &kp I                      &kp O                          &kp P                           &kp LEFT_BRACKET
 &kp TAB               &mt_ballanced LEFT_SHIFT A  &mt_ballanced LEFT_CONTROL S  &mt_ballanced LEFT_ALT D  &mt_ballanced LEFT_GUI F    &kp G          &kp H          &mt_ballanced RIGHT_GUI J    &mt_ballanced RIGHT_ALT K  &mt_ballanced RIGHT_CONTROL L  &mt_ballanced RIGHT_SHIFT SEMI  &kp SQT
 &mt LEFT_SHIFT MINUS  &kp Z                       &kp X                         &kp C                     &mt_ballanced LEFT_SHIFT V  &kp B          &kp N          &mt_ballanced RIGHT_SHIFT M  &kp COMMA                  &kp DOT                        &kp FSLH                        &mt RIGHT_SHIFT BSLH
-                                                                                &lt RSE ESC               &mt LEFT_GUI PRINTSCREEN    &lt LWR SPACE  &lt LWR ENTER  &mt RIGHT_GUI BSPC           &lt RSE DEL
+                                                                                &lt RSE ESC               &mt LEFT_GUI CAPS           &lt LWR SPACE  &lt LWR ENTER  &mt RIGHT_GUI BSPC           &lt RSE DEL
             >;
         };
 
