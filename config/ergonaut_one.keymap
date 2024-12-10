@@ -46,11 +46,13 @@
         HR-caps-combo {
             bindings = <&kp CAPS>;
             key-positions = <16 19>;
+            layers = <0>;
         };
 
         HR-screenshoot-combo {
             bindings = <&take_screenshoot>;
             key-positions = <16 24>;
+            layers = <0>;
         };
     };
 
