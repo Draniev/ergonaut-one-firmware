@@ -2,7 +2,7 @@ layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - '['
-  - Q
+  - '&tap_q'
   - W
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - '&tap_p'
   - ']'
   - ↹
   - {t: A, h: LEFT SHIFT}
@@ -38,10 +38,10 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - ESCAPE
-  - {t: ␣, h: LEFT GUI}
+  - {t: BACKSPACE, h: LEFT GUI}
   - {t: CAPSLOCK, h: lower}
   - {t: ENTER, h: RIGHT SHIFT}
-  - {t: BACKSPACE, h: RIGHT GUI}
+  - {t: ␣, h: RIGHT GUI}
   - {t: raise, h: toggle}
   lower:
   - {t: ▽, type: trans}
@@ -68,7 +68,7 @@ layers:
   - (
   - )
   - '='
-  - {t: LEFT SHIFT, h: '-'}
+  - {t: '-', h: LEFT SHIFT}
   - '1'
   - '2'
   - '3'
@@ -84,22 +84,22 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - (
+  - <
+  - '>'
+  - )
   - ''
   - ''
+  - ':'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
   - LEFT SHIFT
   - LEFT CONTROL
   - LEFT ALT
@@ -110,13 +110,13 @@ layers:
   - UP ARROW
   - RIGHT ARROW
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LEFT SHIFT
-  - ''
+  - '='
+  - {t: '-', h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - H
   - Y
   - N
@@ -124,7 +124,7 @@ layers:
   - ''
   - RIGHT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌦
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
