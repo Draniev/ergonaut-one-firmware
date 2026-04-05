@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
@@ -124,7 +124,7 @@ layers:
   - ''
   - RIGHT SHIFT
   - {t: ▽, type: trans}
-  - ⌦
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
