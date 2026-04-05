@@ -2,7 +2,7 @@ layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
   - '['
-  - '&tap_q'
+  - Q
   - W
   - E
   - R
@@ -11,7 +11,7 @@ layers:
   - U
   - I
   - O
-  - '&tap_p'
+  - P
   - ']'
   - ↹
   - {t: A, h: LEFT SHIFT}
@@ -131,9 +131,9 @@ layers:
   - {type: held}
   adjust:
   - Boot
-  - ''
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
@@ -168,11 +168,17 @@ layers:
   - Reset
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [16, 12]
   k: '&take_screenshoot'
+  l: [default]
+- p: [1, 2, 3]
+  k: adjust
+  l: [default]
+- p: [9, 10, 8]
+  k: adjust
   l: [default]
