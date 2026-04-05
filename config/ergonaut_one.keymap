@@ -43,14 +43,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_Q";
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&none>, <&none>, <&sl 3>;
+            bindings = <&kp Q>, <&none>, <&none>, <&tog 3>;
         };
 
         tap_p: tap_p {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_P";
             #binding-cells = <0>;
-            bindings = <&kp P>, <&none>, <&none>, <&sl 3>;
+            bindings = <&kp P>, <&none>, <&none>, <&tog 3>;
         };
     };
 
@@ -81,7 +81,7 @@
 &kp LEFT_BRACKET      &tap_q                      &kp W                         &kp E                     &kp R                       &kp T             &kp Y                  &kp U                        &kp I                      &kp O                          &tap_p                          &kp RIGHT_BRACKET
 &kp TAB               &mt_ballanced LEFT_SHIFT A  &mt_ballanced LEFT_CONTROL S  &mt_ballanced LEFT_ALT D  &mt_ballanced LEFT_GUI F    &kp G             &kp H                  &mt_ballanced RIGHT_GUI J    &mt_ballanced RIGHT_ALT K  &mt_ballanced RIGHT_CONTROL L  &mt_ballanced RIGHT_SHIFT SEMI  &kp SQT
 &mt LEFT_SHIFT MINUS  &kp Z                       &kp X                         &kp C                     &mt_ballanced LEFT_SHIFT V  &kp B             &kp N                  &mt_ballanced RIGHT_SHIFT M  &kp COMMA                  &kp DOT                        &kp FSLH                        &mt RIGHT_SHIFT BSLH
-                                                                                &kp ESCAPE                &mt LEFT_GUI BACKSPACE      &lt LWR CAPSLOCK  &mt RIGHT_SHIFT ENTER  &mt RIGHT_GUI SPACE          &tog 2
+                                                                                &kp ESCAPE                &mt LEFT_GUI BACKSPACE      &lt LWR CAPSLOCK  &mt RIGHT_SHIFT ENTER  &mt RIGHT_GUI SPACE          &mo 2
             >;
         };
 

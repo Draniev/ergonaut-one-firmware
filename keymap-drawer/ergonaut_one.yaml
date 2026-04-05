@@ -42,7 +42,7 @@ layers:
   - {t: CAPSLOCK, h: lower}
   - {t: ENTER, h: RIGHT SHIFT}
   - {t: ␣, h: RIGHT GUI}
-  - {t: raise, h: toggle}
+  - raise
   lower:
   - {t: ▽, type: trans}
   - '`'
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   adjust:
   - Boot
   - ''
@@ -171,7 +171,7 @@ layers:
   - {type: held}
   - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [16, 12]
   k: '&take_screenshoot'
