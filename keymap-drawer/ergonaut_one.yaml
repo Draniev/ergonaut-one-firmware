@@ -38,10 +38,10 @@ layers:
   - /
   - {t: \, h: RIGHT SHIFT}
   - ESCAPE
-  - {t: BACKSPACE, h: LEFT GUI}
-  - {t: CAPSLOCK, h: lower}
+  - {t: CAPSLOCK, h: LEFT GUI}
+  - {t: ENTER, h: lower}
   - {t: ␣, h: RIGHT SHIFT}
-  - {t: ENTER, h: RIGHT GUI}
+  - {t: BACKSPACE, h: RIGHT GUI}
   - raise
   lower:
   - {t: ▽, type: trans}
