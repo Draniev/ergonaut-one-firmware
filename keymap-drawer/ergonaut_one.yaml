@@ -18,7 +18,7 @@ layers:
   - {t: S, h: LEFT CONTROL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
-  - G
+  - {t: G, h: num}
   - H
   - {t: J, h: RIGHT GUI}
   - {t: K, h: RIGHT ALT}
@@ -39,10 +39,10 @@ layers:
   - {t: \, h: RIGHT SHIFT}
   - ESCAPE
   - {t: CAPSLOCK, h: LEFT GUI}
-  - {t: ENTER, h: lower}
-  - {t: ␣, h: RIGHT SHIFT}
+  - {t: ␣, h: lower}
+  - {t: ENTER, h: RIGHT SHIFT}
   - {t: BACKSPACE, h: RIGHT GUI}
-  - raise
+  - move
   lower:
   - {t: ▽, type: trans}
   - '`'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
-  raise:
+  move:
   - {t: ▽, type: trans}
   - '`'
   - ''
@@ -97,7 +97,7 @@ layers:
   - )
   - ''
   - ''
-  - ':'
+  - Sft+O
   - {t: ▽, type: trans}
   - +
   - LEFT SHIFT
@@ -112,11 +112,11 @@ layers:
   - ''
   - '='
   - {t: '-', h: LEFT SHIFT}
-  - '1'
-  - '2'
-  - '3'
-  - {t: '4', h: LEFT SHIFT}
-  - '5'
+  - ''
+  - ''
+  - ''
+  - LEFT SHIFT
+  - ''
   - H
   - Y
   - N
@@ -172,6 +172,49 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  num:
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP DIVIDE
+  - '7'
+  - '8'
+  - '9'
+  - KP SUBTRACT
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - KP MULTIPLY
+  - '4'
+  - '5'
+  - '6'
+  - KP PLUS
+  - '='
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP EQUAL
+  - '1'
+  - '2'
+  - '3'
+  - KP DOT
+  - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
 combos:
 - p: [16, 12]
   k: '&take_screenshoot'
