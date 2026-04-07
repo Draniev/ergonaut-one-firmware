@@ -54,7 +54,7 @@ layers:
   - )
   - ''
   - ''
-  - Sft+O
+  - Sft+P
   - {t: ▽, type: trans}
   - +
   - '!'
@@ -97,7 +97,7 @@ layers:
   - )
   - ''
   - ''
-  - Sft+O
+  - Sft+P
   - {t: ▽, type: trans}
   - +
   - LEFT SHIFT
